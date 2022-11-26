@@ -1,0 +1,266 @@
+body{
+    font-family:'Helvetica Neue', Helvetica, Arial,sans-serif;
+    background-color:black ;
+    color: white;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.net-section{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+    border-bottom: 8px solid rgb(77, 76, 76)
+}
+
+header{
+    display: flex;
+    margin: 0 3.5rem;
+    justify-content: space-between;
+}
+
+#netflix-logo{
+    height: 50px;
+    width: 200px;
+}
+
+.sign-out{
+    background-color: red;
+    color: white;
+    border-color: red;
+    cursor: pointer;
+    font-weight: 400px;
+    padding: 7px 17px;
+    margin: 0.5rem;
+    border-radius: 7px;
+    line-height: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.net-content{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: 900px;
+}
+
+#welcome{
+    margin-bottom: 50px;
+    
+
+}
+
+#finish{
+    background-color: red;
+    color: white;
+    font-weight: 400px;
+    font-size: 1.625rem;
+    min-height: 60px;
+    margin: 15px;
+    align-items: center;
+    display: inline-flex;
+    padding: 15px;
+    line-height: normal;
+    border-color: red;
+    cursor: pointer;
+    
+}
+
+.watch-section {
+    display: flex;
+    padding: 56px;
+    
+    margin: 1px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(77, 76, 76);
+    
+}
+
+.watch-texts {
+    width: 500px;
+    font-size: 200%;
+    display: block;
+    
+    margin: 2px;
+    column-count: 1;
+    font-style: normal;
+    
+    
+}
+
+#enjoy{
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+
+.watch-media{
+    position: relative;
+}
+
+.download-container img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.feature-image{
+    width: 65%;
+}
+.feature-video{
+    width: 290px;
+    position: absolute;
+    top: 65px;
+    left: 57px;
+    
+    
+}
+
+.watch-section:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+.download{
+    border: 2px solid #666;
+    border-radius: 15px;
+    padding: 1rem;
+    height: 95px;
+    display: grid;
+    grid-template-columns: 4rem 1fr 5rem;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    gap: 20px;
+    width: 64%;
+    background-color:black;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.download img{
+height: 500%;
+width: auto;
+
+}
+
+
+#stranger{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#downloading{
+    font-size: 0.8rem;
+    color: #0071eb;
+}
+
+.faq{
+    padding: 56px;
+    position: relative;
+    margin: 2rem auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(77, 76, 76);
+}
+
+.faq-title{
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+    margin-top: 40px;
+    
+}
+
+.accordion-list{
+list-style: none;
+margin-top: 1;
+margin-bottom: 1px;
+display: grid;
+grid-row-gap: 1rem;
+font-size: 2rem;
+max-width: 1440px;
+padding: 100px;
+width: 98%;
+
+}
+
+.accordion-question{
+    background-color: #303030;
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1px;
+    font-size: inherit;
+    position: relative;
+    cursor: pointer;
+    padding: 18px;
+    color: white;
+}
+
+.accordion-question:after{
+content: "+";
+display: grid;
+place-items: center;
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+width: 6rem;
+text-align: center;
+font-size: 2rem;
+
+
+}
+
+#sign-up{
+    background-color: red;
+    color: white;
+    font-weight: 400px;
+    font-size: 1.625rem;
+    min-height: 40px;
+    margin: 1px;
+    display:flex;
+ 
+    align-items: center;
+    padding: 20px;
+    line-height: normal;
+    border-color: red;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+.footer{
+    padding: 8rem 6rem 4rem;
+    width: 90%;
+    margin:  2 auto;
+    max-width: 1000px;
+}
+
+.footer-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.footer-link{
+    font-size: 1.3rem;
+    color: #757575;
+}
